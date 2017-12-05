@@ -1,0 +1,15 @@
+{
+  "name": "plusminusexpress",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon -L app/server.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "express": "~4.15.0",
+    "mongoose": "^4.7.0",
+    "mongoose-auth": "*",
+    "mongoose-auto-increment": "latest"
+  }
+}
